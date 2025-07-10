@@ -1102,4 +1102,6 @@ def analyze():
 
 
 if __name__ == "__main__":
+    import dotenv
+    dotenv.load_dotenv()
     app()
